@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author Edgar Rico (edgar.martinez.rico@gmail.com)
  */
-public interface EnablementRangeDate {
+public interface EnablementRangeDate extends Enablement {
 
     /**
      * Retrieves the date in which an instance of an object will become active.

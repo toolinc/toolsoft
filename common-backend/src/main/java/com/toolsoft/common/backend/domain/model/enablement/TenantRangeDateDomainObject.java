@@ -29,6 +29,9 @@ public abstract class TenantRangeDateDomainObject extends TenantDomainObject
     @Column(name = "effectiveEnd")
     private Date effectiveEnd;
 
+    @Column(name = "active")
+    private boolean enable;
+
     @Override
     public Date getEffectiveStart() {
         return effectiveStart;
@@ -47,5 +50,15 @@ public abstract class TenantRangeDateDomainObject extends TenantDomainObject
     @Override
     public void setEffectiveEnd(Date effectiveEnd) {
         this.effectiveEnd = effectiveEnd;
+    }
+
+    @Override
+    public boolean isEnable() {
+        return enable;
+    }
+
+    @Override
+    public void setEnable(boolean enable) {
+        this.enable = enable;
     }
 }
