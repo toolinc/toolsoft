@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <Match>
+        <Or>
+            <Package name="~com[.]toolsoft[.]common[.]([.].*)?"/>
+            <Package name="~com[.]toolsoft[.]common[.]backend([.].*)?"/>
+            <Package name="~com[.]toolsoft[.]common[.]backend[.]domain([.].*)?"/>
+            <Package name="~com[.]toolsoft[.]common[.]backend[.]domain[.]model([.].*)?"/>
+        </Or>
+        <Or>
+            <Bug pattern="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" />
+        </Or>
+    </Match>
+</FindBugsFilter>

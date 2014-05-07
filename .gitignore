@@ -1,0 +1,11 @@
+/.idea/*.*
+/.idea/copyright/*.*
+/.idea/libraries/*.*
+/.idea/scopes/*.*
+/toolsoft.iml
+/common-backend/common-backend.iml
+/tenant-backend/tenant-backend.iml
+/target/
+/common-backend/target/
+/tenant-backend/target/
+
