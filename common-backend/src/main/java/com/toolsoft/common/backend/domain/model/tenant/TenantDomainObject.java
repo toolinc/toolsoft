@@ -1,6 +1,8 @@
 // Copyright 2014 Tool Inc.
 
-package com.toolsoft.common.backend.domain.model;
+package com.toolsoft.common.backend.domain.model.tenant;
+
+import com.toolsoft.common.backend.domain.model.DomainObject;
 
 import org.eclipse.persistence.annotations.Multitenant;
 import org.eclipse.persistence.annotations.MultitenantType;
@@ -17,5 +19,5 @@ import javax.persistence.MappedSuperclass;
 @Multitenant(MultitenantType.SINGLE_TABLE)
 @TenantDiscriminatorColumn(name = "idTenant", discriminatorType = DiscriminatorType.INTEGER)
 @MappedSuperclass
-public abstract class TenantDomainObject extends DomainObject {
+public abstract class TenantDomainObject extends DomainObject implements Tenant {
 }
