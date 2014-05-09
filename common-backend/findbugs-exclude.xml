@@ -6,9 +6,11 @@
             <Package name="~com[.]toolsoft[.]common[.]backend([.].*)?"/>
             <Package name="~com[.]toolsoft[.]common[.]backend[.]domain([.].*)?"/>
             <Package name="~com[.]toolsoft[.]common[.]backend[.]domain[.]model([.].*)?"/>
+            <Package name="~com[.]toolsoft[.]common[.]backend[.]domain[.]model[.]enablement([.].*)?"/>
+            <Package name="~com[.]toolsoft[.]common[.]backend[.]domain[.]model[.]tenant([.].*)?"/>
         </Or>
         <Or>
-            <Bug pattern="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" />
+            <Bug pattern="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD"/>
         </Or>
     </Match>
 </FindBugsFilter>

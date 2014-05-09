@@ -47,7 +47,7 @@ public class AssertionConcern {
     }
 
     protected static void assertArgumentLength(String aString, int aMinimum, int aMaximum,
-                                        String aMessage) {
+                                               String aMessage) {
         int length = aString.trim().length();
         if (length < aMinimum || length > aMaximum) {
             throw new IllegalArgumentException(aMessage);

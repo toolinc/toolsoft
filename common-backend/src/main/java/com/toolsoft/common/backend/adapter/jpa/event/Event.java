@@ -7,8 +7,8 @@ import com.toolsoft.common.backend.domain.event.DomainEvent;
 import com.toolsoft.common.backend.domain.model.DomainObjectBuilder;
 import com.toolsoft.common.backend.domain.model.DomainObjectConcurrencySafe;
 import com.toolsoft.common.backend.serializer.DomainEventSerializer;
-import java.math.BigInteger;
 
+import java.math.BigInteger;
 import java.util.Date;
 
 import javax.persistence.Column;

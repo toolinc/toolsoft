@@ -34,22 +34,24 @@ public abstract class TenantRangeDateDomainObject extends TenantDomainObject
 
     @Override
     public Date getEffectiveStart() {
-        return effectiveStart;
+        return newDate(effectiveStart);
     }
 
     @Override
     public void setEffectiveStart(Date effectiveStart) {
-        this.effectiveStart = effectiveStart;
+        assertArgumentNotNull(effectiveStart, "Effective start cannot be null.");
+        this.effectiveStart = newDate(effectiveStart);
     }
 
     @Override
     public Date getEffectiveEnd() {
-        return effectiveEnd;
+        return newDate(effectiveEnd);
     }
 
     @Override
     public void setEffectiveEnd(Date effectiveEnd) {
-        this.effectiveEnd = effectiveEnd;
+        assertArgumentNotNull(effectiveEnd, "Effective end cannot be null.");
+        this.effectiveEnd = newDate(effectiveEnd);
     }
 
     @Override

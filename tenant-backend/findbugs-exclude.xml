@@ -3,12 +3,10 @@
     <Match>
         <Or>
             <Package name="~com[.]toolsoft[.]tenant[.]([.].*)?"/>
-            <Package name="~com[.]toolsoft[.]tenant[.]backend([.].*)?"/>
-            <Package name="~com[.]toolsoft[.]tenant[.]backend[.]domain([.].*)?"/>
-            <Package name="~com[.]toolsoft[.]tenant[.]backend[.]domain[.]model([.].*)?"/>
+            <Package name="~com[.]toolsoft[.]tenant[.]domain([.].*)?"/>
         </Or>
         <Or>
-            <Bug pattern="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" />
+            <Bug pattern="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD"/>
         </Or>
     </Match>
 </FindBugsFilter>

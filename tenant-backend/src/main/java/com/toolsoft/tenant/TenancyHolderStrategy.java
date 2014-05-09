@@ -24,7 +24,6 @@ public class TenancyHolderStrategy extends AssertionConcern {
 
     /**
      * Explicitly clear the tenancy context.
-     *
      */
     public static void clearCurrentTenancyContext() {
         strategy.clearCurrentTenancyContext();
@@ -42,8 +41,7 @@ public class TenancyHolderStrategy extends AssertionConcern {
     /**
      * Associates a new <code>TenancyContext</code> with the current context of execution.
      *
-     * @param context
-     *            the new <code>TenancyContext</code> (may not be <code>null</code>)
+     * @param context the new <code>TenancyContext</code> (may not be <code>null</code>)
      */
 
     public static void registerTenancyContext(TenancyContext context) {
@@ -62,8 +60,7 @@ public class TenancyHolderStrategy extends AssertionConcern {
     /**
      * Set the context strategy.
      *
-     * @param strategy
-     *            the configured strategy for storing the tenancy context.
+     * @param strategy the configured strategy for storing the tenancy context.
      */
     public static void setStrategy(TenancyStrategy strategy) {
         assertArgumentNotNull(strategy, "The tenant strategy cannot be null.");

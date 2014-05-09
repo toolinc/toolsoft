@@ -17,7 +17,7 @@ public class TenancyContext extends AssertionConcern implements Serializable {
 
     private final Tenant tenant;
 
-    public TenancyContext (Tenant tenant) {
+    public TenancyContext(Tenant tenant) {
         assertArgumentNotNull(tenant, "The tenant cannot be null.");
         this.tenant = tenant;
     }

@@ -14,20 +14,20 @@ import java.util.Objects;
  */
 public class Tenant extends AssertionConcern implements Serializable {
 
-    private final String id;
+    private final Integer id;
 
-    public Tenant(String id) {
-        assertArgumentNotEmpty(id, "The tenant id cannot be null or empty.");
+    public Tenant(Integer id) {
+        assertArgumentNotNull(id, "The tenant id cannot be null or empty.");
         this.id = id;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
     @Override
     public String toString() {
-        return String.format("Tenant { id = [%s] }.", getId());
+        return String.format("Tenant { id = [%d] }.", getId());
     }
 
     @Override
