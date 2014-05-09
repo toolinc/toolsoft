@@ -1,10 +1,10 @@
 // Copyright 2014 Tool Inc.
 
-package com.toolsoft.tenant.adapter;
+package com.toolsoft.common.tenant.adapter;
 
 import com.toolsoft.common.backend.AssertionConcern;
-import com.toolsoft.tenant.TenancyContext;
-import com.toolsoft.tenant.TenancyStrategy;
+import com.toolsoft.common.tenant.TenancyContext;
+import com.toolsoft.common.tenant.TenancyStrategy;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -27,6 +27,10 @@ public abstract class DomainObject extends AssertionConcern implements Serializa
 
     public abstract void setId(BigInteger id);
 
+    public boolean isNew() {
+        return null == getId();
+    }
+
     @Override
     public int hashCode() {
         int hash = 7;

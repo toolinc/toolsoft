@@ -1,9 +1,9 @@
 // Copyright 2014 Tool Inc.
 
-package com.toolsoft.tenant;
+package com.toolsoft.common.tenant;
 
 import com.toolsoft.common.backend.AssertionConcern;
-import com.toolsoft.tenant.domain.Tenant;
+import com.toolsoft.common.tenant.domain.Tenant;
 
 import java.io.Serializable;
 import java.util.Objects;

@@ -1,6 +1,6 @@
 // Copyright 2014 Tool Inc.
 
-package com.toolsoft.tenant;
+package com.toolsoft.common.tenant;
 
 /**
  * A strategy for storing tenancy context information against an execution.

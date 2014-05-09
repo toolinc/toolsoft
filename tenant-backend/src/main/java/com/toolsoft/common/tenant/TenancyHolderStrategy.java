@@ -1,6 +1,6 @@
 // Copyright 2014 Tool Inc.
 
-package com.toolsoft.tenant;
+package com.toolsoft.common.tenant;
 
 import com.toolsoft.common.backend.AssertionConcern;
 

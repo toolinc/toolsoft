@@ -1,11 +1,11 @@
 // Copyright 2014 Tool Inc.
 
-package com.toolsoft.tenant.adapter.jpa;
+package com.toolsoft.common.tenant.adapter.jpa;
 
 import com.google.common.collect.ImmutableMap;
 import com.toolsoft.common.backend.AssertionConcern;
-import com.toolsoft.tenant.TenancyContext;
-import com.toolsoft.tenant.TenancyHolderStrategy;
+import com.toolsoft.common.tenant.TenancyContext;
+import com.toolsoft.common.tenant.TenancyHolderStrategy;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

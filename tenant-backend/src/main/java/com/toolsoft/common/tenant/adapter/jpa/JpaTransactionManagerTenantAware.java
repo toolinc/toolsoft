@@ -1,6 +1,6 @@
 // Copyright 2014 Tool Inc.
 
-package com.toolsoft.tenant.adapter.jpa;
+package com.toolsoft.common.tenant.adapter.jpa;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
